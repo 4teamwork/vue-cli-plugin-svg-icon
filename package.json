@@ -1,6 +1,6 @@
 {
   "name": "@4tw/vue-cli-plugin-svg-icon",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Adds webpack rules to generate optimized svg sprites.",
   "main": "index.js",
   "author": "4teamwork",
