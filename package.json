@@ -1,0 +1,29 @@
+{
+  "name": "@4tw/vue-cli-plugin-svg-icon",
+  "version": "0.0.1",
+  "description": "Adds webpack rules to generate optimized svg sprites.",
+  "main": "index.js",
+  "author": "4teamwork",
+  "scripts": {
+    "postversion": "git push --tags && npm publish --access=public && git push",
+    "release": "yarn version"
+  },
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/4teamwork/vue-cli-plugin-svg-icon"
+    }
+  ],
+  "license": "GPL-2.0",
+  "private": false,
+  "keywords": [
+    "vue",
+    "cli",
+    "svg",
+    "loader"
+  ],
+  "dependencies": {
+    "svg-sprite-loader": "^4.1.6",
+    "svgo-loader": "^2.2.0"
+  }
+}
