@@ -4,6 +4,12 @@ Adds webpack rules to generate optimized svg sprites.
 
 # Setup
 
+``` bash
+yarn add --dev @4tw/vue-cli-plugin-svg-icon
+```
+
+# Usage
+
 Provide a `svgDir` option under `pluginOptions` in your `vue.config.js` config.
 
 ``` javascript
